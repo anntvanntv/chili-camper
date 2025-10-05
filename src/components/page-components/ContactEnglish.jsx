@@ -5,7 +5,7 @@ import ContactGroup from '../ContactGroup'
 function Contact({ }) {
   return (
     <div className="form" style={{backgroundColor: "white", marginTop:"400px"}}>
-      <form className="formulario" action="https://formsubmit.co/anna.taules@gmail.com" method="POST">
+      <form className="formulario" action="https://formsubmit.co/info@chili-camper.com" method="POST">
        <h2>Formulario de contacto</h2>
         <fieldset className="form-columns-2">
           <ContactGroup 

@@ -50,18 +50,27 @@ body {
 }
 .card-section{
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
   justify-content: space-around;
 }
  .card{
 max-width: 33.3333%;
 min-width:0;
 box-sizing:border-box;
-height: 50vh;
+/* height: 50vh; */
 flex: 1 1 0;
 display:flex;
 flex-direction: column;
 }
+/* .card-hover .foto{
+  transition: all ease-in-out 0.3s;
+}
+.card-hover:hover .foto{
+  transform: scale(1.05);
+  box-shadow: 0 5px 50px #000000ba;
+  z-index: 1;
+  position:relative;
+} */
 .card-hover{
   transition: all ease-in-out 0.3s;
 }
@@ -83,7 +92,7 @@ flex-direction: column;
   color:red;
 }
 .contact-section{
-  height:100vh;
+  min-height:100vh;
  display:flex;
  color:black;
  margin-bottom: 40px;
@@ -97,6 +106,7 @@ flex-direction: column;
   display: flex;
   gap: 1rem;
   width: 100%;
+  align-items: flex-start;
 }
 .d-flex-btn{
   display: flex;
@@ -190,14 +200,14 @@ form .submit .button:hover{
   font-weight:600;
 }
 .header {
-  height: 100vh;
+  min-height: 100dvh;
   position: relative;
   font-size:30px;
   color:white;  
   margin: 50px 117px; 
 }
 .header-content {
-   height: 677px;
+   height: 100dvh;
    background-image: url("./img/portada.webp");
    background-position-y: -670px;
    background-position-x: center;
@@ -382,18 +392,12 @@ label span{
  display:flex;
  flex-direction: column;
 }
-/* PROVANT ESBORRAR PROVANT ESBORRAR PROVANT ESBORRAR*/
-/* .textarea.casilla{
-  box-sizing: border-box;
-  width:100%;
-  max-width:100%;
-} */
-/* FINS AQUÍ FINS AQUÍ FINS AQUÍ FINS AQUÍ*/
+
 .text-section{
   color:black;
-  /* margin-top:112px; */
   width: 800px;
   font-size: 27px;
+  margin-top:50px;
 }
 .text-card{
   color: var(--text-color);
@@ -550,7 +554,7 @@ label span{
   }
   .d-flex {
     flex-direction: column;
-    /* align-items: center; */
+    align-items: initial;
   }
   .fieldform{
     margin-right:20px;
@@ -777,12 +781,6 @@ form .submit .button{
   .xarxa{
     margin-left:12px;
   }
-
-  /*------------------------------  PROVA CENTRADO DE CASILLAS    -------------------------------------------------  */
-/*   .input{
-    width:198px;
-  } */
-   /*------------------------------ FIN PROVA CENTRADO DE CASILLAS    -------------------------------------------------  */
   .pictures-modal, .prices-content{
     width:446px;
     left:42%;

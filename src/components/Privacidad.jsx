@@ -9,7 +9,7 @@ function Privacidad() {
       <h1>Política de Privacidad</h1>
       <h2>1. Responsable del Tratamiento de Datos</h2>
       <p>
-        Los datos personales recopilados a través de este sitio web serán tratados por los propietarios de Chili Camper, con correo electrónico de contacto: info@chilicamper.com.
+        Los datos personales recopilados a través de este sitio web serán tratados por los propietarios de Chili Camper, con correo electrónico de contacto: info@chili-camper.com.
       </p>
 
       <h2>2. Datos personales recopilados</h2>
@@ -60,7 +60,7 @@ function Privacidad() {
       </p>
 
       <p className='mb-10'>
-        Si tienes alguna consulta adicional sobre la protección de tus datos personales, puedes escribir a<a style={{color: "black"}} href='mailto:info@chilicamper.com'> info@chilicamper.com</a>.
+        Si tienes alguna consulta adicional sobre la protección de tus datos personales, puedes escribir a<a style={{color: "black"}} href='mailto:info@chili-camper.com'> info@chili-camper.com</a>.
       </p>
 
      <NavLink to={`/home`} className="nav-link-privacidad">  <FaArrowLeft size={14}  />  VOLVER</NavLink>
