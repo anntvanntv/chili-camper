@@ -1,0 +1,293 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+ --header-color: #b12217;
+ --body-color: #ffe14d00;
+ --card-header: #19191a;
+ --deco-blau: #326889;
+ --text-color: #fafafa;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+body{
+  background-color: var(--body-color);
+}
+a{
+  font-size:16px;
+  font-weight: 500;
+  color:white;
+  transition: all ease-in-out 0.7s;
+}
+a:hover{
+  opacity:0.5;
+}
+.creditos a{
+  color:black;
+  font-weight:500;
+  font-style:italic;
+}
+
+.creditos p{
+  font-weight: 500;
+}
+.creditos h1{
+  font-weight: 500;
+  color:black;
+}
+.creditos h2{
+  font-weight: 500;
+}
+.creditos h3{
+  font-weight: 500;
+}
+.developer a{
+  font-size:14px;
+}
+.fieldform.message-fieldform input{
+  height:100%;
+}
+.impressum span{
+  font-size: 13px;
+  font-weight:600;
+  margin-left:143px;
+}
+input{
+  text-transform:initial;
+  width:100%;
+  font-weight: 600;
+  padding: 3px;
+  border:none;
+}
+fieldset{
+  display:flex;
+    border:none;
+    width:400px;
+  }
+form{
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  background-color: #d9d9da;
+}
+.politica-privacidad h2{
+  margin: 15px auto 3px;
+}
+.politica-privacidad p{
+  line-height: 20px;
+}
+.prices-content h2, .prices-content p{
+  width:350px;
+}
+
+.text-section h2{
+  margin-bottom: 15px;
+  font-weight:600;
+}
+li{
+  text-decoration: none;
+ cursor: pointer;
+}
+li:hover{
+  text-decoration: underline;
+}
+ul{
+  display: flex;
+  position: absolute;
+  right: 41px;
+  font-family: "Work Sans", serif;
+}
+li{
+  margin: 10px;
+}
+textarea{
+  border:none;
+}
+.text-card h2{
+  font-size: 34px;
+  letter-spacing: 2px;
+  font-weight: 401;
+  color:red;
+}
+.text-card h3{
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+
+.mb-x a{
+  font-size:10px;
+}
+main{
+  margin: auto 117px;
+}
+.xarxa a{
+  color:black;
+  font-size:38px;
+}
+.xarxa p{
+  margin-top: 4px;
+}
+@media (max-width:1358px){
+  main{
+    margin:auto 61px;
+  }
+}
+@media (max-width:1126px){
+  main{
+    margin: auto 10px;
+  }
+}
+@media(max-width:1213px){
+  .impressum span{
+    margin-left:50px;
+  }
+}
+@media(max-width: 1018px){
+  .impressum span{
+    margin-left:32px;
+  }
+}
+@media (max-width:900px){
+ fieldset{
+  width:600px;
+ }
+
+  form{
+    margin-left:10px;
+    height:450px;
+    padding:5rem;
+  }
+  .text-card h3{
+    font-size:55px;
+  }
+  
+}
+@media (max-width:802px){
+  form{
+    padding:4rem;
+  }
+}
+@media(max-width:774px){
+  form{
+    padding:3rem;
+  }
+}
+@media(max-width:746px){
+ 
+
+ fieldset{
+  width:inherit;
+}
+}
+@media (max-width: 700px){
+  .text-card h3{font-size: 45px;}
+}
+.text-card h2{
+  font-size: 28px;
+}
+@media(max-width: 650px){
+  form{
+    height:inherit;
+  }
+}
+@media(max-width:610px){
+  form{
+    padding:2rem;
+  }
+}
+@media (max-width:600px){
+  ul{
+    right:5px;
+  }
+  .text-card h3{
+    font-size:43px;
+  }
+}
+@media(max-width:504px){
+  .impressum span{
+    font-size:12px;
+    margin-left:10px;
+  }
+  .xarxa a{
+    font-size:36px;
+  }
+}
+@media (max-width: 500px){
+  a{
+    font-size:16px;
+  }
+ 
+  fieldset{
+    flex-direction: column;
+     /* ------- PROVA CENTRADO DE CASILLAS -------------- */
+    width: 100%;
+    max-width:300px;
+    margin: 0 auto;
+    
+  }
+  /* FI PROVA CENTRADO DE CASILLAS   */
+  form{
+    margin:0;
+    padding:10px;
+    width:100%;
+    align-items: baseline;
+  }
+  .form h2{
+    width: 100%;
+    max-width:300px;
+    margin: 0 auto;
+  }
+  .text-card h2{
+    font-size:19px;
+  }
+  .text-card h3{
+    font-size:30px;
+  }
+  li{
+    margin:5px;
+  }
+  .prices-content p{
+    width:auto;
+  }
+  ul{
+    right:13px;
+  }
+}
+@media (max-width:414px){
+ a{
+  font-size:15px;
+ }
+ .creditos h1{
+  font-size:27px;
+ }
+ .creditos h3{
+  font-size: 16px;
+ }
+ .text-card h2{font-size:18px;}
+.text-creditos h3{
+  font-size:15px;
+ }
+ .text-creditos a, .text-creditos p{
+  font-size: 13px;
+ }
+}
+@media (max-width:370px){
+ 
+  .text-card h2{
+    font-size: 16px;
+  }
+  .text-card h3{
+    font-size:23px;
+  }
+}
+
+
+
