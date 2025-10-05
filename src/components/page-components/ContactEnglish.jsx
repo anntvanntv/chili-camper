@@ -5,7 +5,11 @@ import ContactGroup from '../ContactGroup'
 function Contact({ }) {
   return (
     <div className="form" style={{backgroundColor: "white", marginTop:"400px"}}>
-      <form className="formulario" action="https://formsubmit.co/info@chili-camper.com" method="POST">
+      <form className="formulario" action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="c33ea97a-7182-4bfb-bf50-de7505edd20a" />
+      <input type="hidden" name="subject" value="Nuevo mensaje desde Chili-Camper" />
+      <input type="hidden" name="from_name" value="Chili Camper Web" />
+      <input type="hidden" name="captcha" value="false" />
        <h2>Formulario de contacto</h2>
         <fieldset className="form-columns-2">
           <ContactGroup 
@@ -13,6 +17,7 @@ function Contact({ }) {
             type="text" 
             title="tu nombre"
             label="Name" 
+            required
             />
           <ContactGroup 
             name="telefon"
@@ -27,6 +32,7 @@ function Contact({ }) {
               type="email"
               title="tu correo electrónico"
               label="Email"
+              required
           />
         </fieldset>
         <fieldset className="form-columns-1">

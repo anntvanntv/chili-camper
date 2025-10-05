@@ -5,7 +5,10 @@ import ContactGroup from '../ContactGroup'
 function Contact({ children, title, fields=[], submitText }) {
   return (
     <div className="form" style={{backgroundColor: "white"}}>
-      <form className="formulario" action="https://formsubmit.co/info@chili-camper.com" method="POST">
+      <form className="formulario" action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="c33ea97a-7182-4bfb-bf50-de7505edd20a" />
+      <input type="hidden" name="subject" value="Nuevo mensaje desde Chili-Camper" />
+      <input type="hidden" name="from_name" value="Chili Camper Web" />
        <h2>{title}</h2>
 
          { fields.map((fieldset, i) => (

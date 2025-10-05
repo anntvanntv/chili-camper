@@ -206,6 +206,7 @@ function App() {
                       type: "text",
                       title: "tu nombre",
                       label: "Nombre",
+                    
                     },
                     {
                       name: "apellido",
@@ -229,6 +230,7 @@ function App() {
                       type: "email",
                       title: "tu correo electrónico",
                       label: "Correo electrónico",
+                   
                     },
                   ],
                 },
