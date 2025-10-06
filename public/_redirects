@@ -1,4 +1,5 @@
 
+https://www.chili-camper.com/*  https://chili-camper.com/:splat  301!
 /sitemap.xml   /sitemap.xml   200
 /*.xml         /:splat        200
 /*    /index.html   200
